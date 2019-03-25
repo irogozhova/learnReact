@@ -1,0 +1,23 @@
+{
+  "name": "learnreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tasks.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irogozhova/learnReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irogozhova/learnReact/issues"
+  },
+  "homepage": "https://github.com/irogozhova/learnReact#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^6.0.2"
+  }
+}
