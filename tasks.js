@@ -3,7 +3,7 @@ const fib = (number) => {
     throw 'Number is less than zero';
   }
 
-  if (number <= 1) return 1;
+  if (number < 2) return number;
   
   return fib(number - 1) + fib(number - 2);
 }
