@@ -7,5 +7,6 @@ describe('task 1 fibonacciSimple', () => {
     expect(fib(3)).to.be(2);
     expect(fib(10)).to.be(55);
     expect(fib(15)).to.be(610);
+    expect(() => fib(-1)).to.throwException(/Number is less than zero/);
   });
 });
