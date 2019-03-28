@@ -4,7 +4,7 @@
   "description": "",
   "main": "tasks.js",
   "scripts": {
-    "test": "mocha --reporter=spec ./test.js"
+    "test": "mocha --reporter=spec ./functions/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ramda": "^0.26.1"
   }
 }
