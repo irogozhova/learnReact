@@ -4,6 +4,7 @@
   "description": "",
   "main": "tasks.js",
   "scripts": {
+    "lint": "eslint ./functions --fix",
     "test": "mocha --reporter=spec ./functions/test.js"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/irogozhova/learnReact#readme",
   "devDependencies": {
+    "eslint": "^5.16.0",
     "expect.js": "^0.3.1",
     "mocha": "^6.0.2"
   },
