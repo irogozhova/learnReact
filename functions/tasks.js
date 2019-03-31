@@ -8,8 +8,6 @@ const fib = (number) => {
   return fib(number - 1) + fib(number - 2);
 };
 
-/////*\\//*\\//*\\\\\
-
 const cache = {};
 
 const fibWithCache = (number) => {
